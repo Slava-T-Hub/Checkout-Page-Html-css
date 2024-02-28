@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <div id="CheckoutPage">
+      <div class="navBar">
+        <div class="logo">
+          <img src="img/nike logo.png" alt="Logo" />
+        </div>
+        <div class="btn">
+          <button>New & Feaature</button>
+          <button>Men</button>
+          <button>Women</button>
+          <button>Kids</button>
+        </div>
+        <div class="inputBtn">
+          <input type="search" id="searchInput" placeholder="Search" />
+          <button><img src="img/harth.png" alt="Like" /></button>
+          <button><img src="img/agala.png" alt="Agala" /></button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="imgBox">
+          <div class="imgShoes">
+            <img src="img/luxury and modern Sneaker.png" alt="" />
+          </div>
+          <div class="contentText">
+            <p class="p1">NIKE</p>
+            <p class="p2">ZOOM Elevate 3</p>
+            <p class="p3">Make your own move</p>
+          </div>
+        </div>
+
+        <div class="formBox">
+          <div class="formText">
+            <div class="headerGrin">
+              <button class="btnGrin">4.3</button>
+              <p class="textGrin">1764 Rating & 426 Review</p>
+              <p class="formContent">
+                NIKE Zoom Elevate: The Zoom Elevate is a training shoe that
+                offers support and responsiveness for a variety of workouts. The
+                shoe features Zoom Air units in the heel and forefoot for
+                cushioning and a grippy rubber outsole for traction during
+                lateral movements.
+              </p>
+              <form action="#" id="formPay">
+                <div class="paymentMethod">
+                  <label for="">Payment Method</label>
+                  <br />
+                  <select id="paymentSelect">
+                    <option value="">Master Card</option>
+                    <option value="">Visa</option>
+                    <option value="">PayPal</option>
+                  </select>
+                </div>
+
+                <br />
+                <div class="card">
+                  <label for="">Credit Card Details</label>
+                  <br />
+                  <input
+                    type="password"
+                    id="inputCreditCard"
+                    placeholder="**** **** **** ****"
+                  />
+                </div>
+
+                <br />
+                <div class="dateCvv">
+                  <div class="dateExp">
+                    <label for="">Expiry Date</label>
+                    <br />
+                    <input type="datetime" id="dateTime" placeholder="mm/yy" />
+                  </div>
+                  <br />
+                  <div class="cvv">
+                    <label for="">CVV</label>
+                    <br />
+                    <input type="password" id="dateTime" placeholder="***" />
+                  </div>
+                </div>
+
+                <br />
+                <div class="checkboxCon">
+                  <input type="checkbox" id="checkboxId" />
+                  <label for="">Terms & condition</label>
+                </div>
+
+                <br />
+                <div class="order">
+                  <input type="submit" value="PLACE ORDER" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

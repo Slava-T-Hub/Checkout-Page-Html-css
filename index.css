@@ -1,0 +1,262 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  background: #1d1d1d;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#CheckoutPage {
+  background: #000;
+  padding: 0px 100px 0px 100px;
+}
+
+.navBar {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn > button {
+  width: auto;
+  height: 40px;
+  background: #000;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.2s ease-in;
+}
+
+.btn > button:hover {
+  border-radius: 20px;
+  background: #1d1d1d;
+}
+
+.btn > button:active {
+  filter: brightness(70%);
+}
+
+.inputBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputBtn > input {
+  height: 40px;
+  background: #1d1d1d;
+  border-radius: 20px;
+  color: white;
+}
+#searchInput::placeholder {
+  background-image: url(img/Vector.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  color: white;
+  text-align: center;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#searchInput {
+  border: none;
+  outline: none;
+}
+
+.inputBtn > button {
+  height: 40px;
+  background: #1d1d1d;
+  border-radius: 50%;
+  border: none;
+}
+
+.inputBtn > button:hover {
+  filter: brightness(120%);
+}
+
+/* *************************************************content*** */
+
+.content {
+  margin-top: 65px;
+  display: flex;
+}
+
+.imgBox {
+  width: 50%;
+}
+
+.imgShoes > img {
+  width: 450px;
+}
+
+.contentText {
+  color: white;
+  margin-left: 40px;
+  position: relative;
+  top: -740px;
+}
+
+.p1 {
+  font-size: 2.5rem;
+}
+.p2 {
+  font-size: clamp(1rem, 0rem + 5vw, 4.5rem);
+  margin-top: -20px;
+  text-wrap: nowrap;
+}
+.p3 {
+  font-size: 2.5rem;
+  margin-top: -20px;
+  margin-right: 40px;
+  text-align: end;
+}
+
+.formBox {
+  width: 50%;
+  color: white;
+  padding-top: 100px;
+}
+
+/* **************************************form******* */
+
+#formPay {
+  color: white;
+  margin-top: 80px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnGrin {
+  width: 50px;
+  height: 20px;
+  background: #40b922;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  right: 60px;
+  top: 18px;
+  background-image: url(img/kohav.png);
+  background-repeat: no-repeat;
+  background-position: 2px;
+  text-align: end;
+  border: none;
+  outline: none;
+}
+
+.textGrin {
+  color: #40b922;
+  margin-bottom: 20px;
+}
+
+select#paymentSelect {
+  width: 50%;
+  height: 30px;
+  background: #1d1d1d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+input#inputCreditCard {
+  width: 100%;
+  height: 30px;
+  background: #1d1d1d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+input#inputCreditCard::placeholder {
+  text-align: center;
+}
+
+.dateCvv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input#dateTime {
+  height: 30px;
+  background: #1d1d1d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+input#dateTime::placeholder {
+  text-align: center;
+}
+
+.checkboxCon {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: -15px;
+}
+
+.order > input {
+  width: 100%;
+  height: 40px;
+  background: #0085ff;
+  color: white;
+  border-radius: 6px;
+}
+
+.order > input:hover {
+  filter: brightness(120%);
+}
+
+.order > input:active {
+  filter: brightness(90%);
+}
